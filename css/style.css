@@ -1,0 +1,207 @@
+
+/* GOOGLE FONT LINK */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: #ff1058;
+}
+
+.spanUpText {
+    text-transform: uppercase;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right bottom, #952545, #ff1058);
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px #999999;
+    margin: 20px 0px;
+    padding: 5px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+/* SECTION ONE START */
+.sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
+
+.sec1Left {
+    flex-basis: 48%;
+}
+
+.sec1Left h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-left: 2px solid #ff1058;
+    padding-left: 15px;
+    margin: 100px 0px 30px 0px;
+}
+
+.sec1Right {
+    flex-basis: 48%;
+}
+/* SECTION ONE END */
+
+.sec2 {
+    padding: 3% 10%;
+}
+
+.sec2 h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sec2Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.sec2Row i {
+    font-size: 50px;
+    color: #ff1058;
+}
+
+.sec2Row h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 20px 0px;
+}
+
+.sec2col1 {
+    flex-basis: 30%;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, #bcbdff, #FFFFFF);
+    box-shadow: 2px 2px 3px #00000050;
+    border-radius: 10px;
+}
+
+.sec2col2 {
+    flex-basis: 30%;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, #fffbbc, #ffffff);
+    box-shadow: 2px 2px 3px #00000050;
+    border-radius: 10px;
+}
+
+.sec2col3 {
+    flex-basis: 30%;
+    padding: 30px;
+    background-image: linear-gradient(to right bottom, #bcfffc, #FFFFFF);
+    box-shadow: 2px 2px 3px #00000050;
+    border-radius: 10px;
+}
+/* SECTION TWO END */
+
+.sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
+
+.sec3Left {
+    flex-basis: 48%;
+}
+
+.sec3Right {
+    flex-basis: 48%;
+    margin: 60px 0px 30px 0px;
+}
+
+.sec3Right h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 30px 0px;
+}
+/* SECTION THREE END */
+
+.sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 10%;
+}
+
+.sec4Left {
+    flex-basis: 48%;
+    padding: 50px 0px;
+}
+
+.sec4Left h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 60px 0px 30px 0px;
+}
+
+.sec4Right {
+    flex-basis: 48%;
+}
+/* SECTION FOUR END */
+
+.sec5 {
+    padding: 3% 10%;
+}
+
+.sec5 h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.sec5Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec5ColLeft {
+    flex-basis: 48%;
+}
+
+.sec5ColRight {
+    flex-basis: 48%;
+    margin: 60px 0px 30px 0px;
+}
+
+.sec5ColRight h2 {
+    font-family: 'Oswald', sans-serif;
+    margin: 30px 0px;
+}
+/* SECTION FIVE END  */
+
+footer {
+    Height: 150px;
+    background-color: #111111;
+    color: #999999;
+    text-align: center;
+}
+footer h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    padding: 20px 0px;
+}
+/* THE END */
